@@ -10,3 +10,4 @@ export interface HousingLocation {
     wifi: boolean;
     laundry: boolean;
   }
+
