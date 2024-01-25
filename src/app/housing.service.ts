@@ -8,7 +8,7 @@ import { HousingLocation } from './housinglocation';
 })
 
 export class HousingService {
-  url = 'http://localhost:5000/locations';
+  url = 'https://json-db-aiux.onrender.com/locations';
   // readonly baseUrl = 'https://angular.io/assets/images/tutorials/faa';
 
   // housingLocationList: HousingLocation[] = [
