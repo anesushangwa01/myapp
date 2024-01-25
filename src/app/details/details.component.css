@@ -1,10 +1,15 @@
+article{
+  margin: 0 100px;
+}
+
 .listing-photo {
-    height: 600px;
+    height: 500px;
     width: 50%;
     object-fit: cover;
     border-radius: 30px;
     float: right;
   }
+  
   
   .listing-heading {
     font-size: 48pt;

@@ -8,7 +8,7 @@ import { HousingLocation } from './housinglocation';
 })
 
 export class HousingService {
-  url = 'http://localhost:3000/locations';
+  url = 'http://localhost:5000/locations';
   // readonly baseUrl = 'https://angular.io/assets/images/tutorials/faa';
 
   // housingLocationList: HousingLocation[] = [

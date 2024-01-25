@@ -13,6 +13,7 @@ export const routes: Routes = [
         component: DetailsComponent,
         title: 'Home details'
       },
-      {path: '**', component: PageNotFoundComponent}
+      // {path: '**', component: PageNotFoundComponent}
+      { path: '**', redirectTo: '/page-not-found', pathMatch: 'full'}
 ];
 
